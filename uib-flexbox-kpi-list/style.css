@@ -45,6 +45,7 @@ body {
     background-color: white;
     width: 10rem;
     height: 10rem;
+    margin: 10px;
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.103);
 }
 .card-image img {
@@ -52,9 +53,6 @@ body {
     width: 40%;
 }
 
-img {
-    margin: 10%;
-}
 
 .footer {
     align-self: flex-end;
@@ -94,16 +92,30 @@ p, h1 {
     }
 
     .card-item {
-        max-width: 50%;
-        padding: 30px;
+        flex-direction: row-reverse;
+        max-width: 60%;
+        flex-basis: 50%;
     }
-    .left {
-        justify-content: flex-end;
-    }
-
+    
     .right {
-        justify-content: flex-start;
+        align-self: flex-end;
     }
 
+    
+    .left {
+        align-self: flex-start;
+        flex-direction: row;
+    }
+
+    .card-content {
+        flex-basis: 80%;
+        padding: 0;
+        
+    }   
+    .card-image {
+        padding: 0;
+    }
+
+    
     
 }
