@@ -26,6 +26,7 @@ body {
     background-image: linear-gradient(to bottom, rgb(243, 243, 255), rgb(161, 161, 255));
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
 }
 
 .card-item {
@@ -81,14 +82,11 @@ p, h1 {
 
     .card-content {
         flex-basis: 85%;
+        align-items: flex-start;
     }        
 }
 
 @media (min-width: 1200px) {
-    .main-container {
-        /* width: 1200px; */
-        margin: 0;
-    }
 
     .card-item {
         flex-direction: row-reverse;
