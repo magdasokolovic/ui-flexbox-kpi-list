@@ -24,7 +24,6 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-image: linear-gradient(to bottom, rgb(243, 243, 255), rgb(161, 161, 255));
-    max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -34,7 +33,6 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    
 }
 
 .card-image {
@@ -88,7 +86,8 @@ p, h1 {
 
 @media (min-width: 1200px) {
     .main-container {
-        width: 1200px;
+        /* width: 1200px; */
+        margin: 0;
     }
 
     .card-item {
@@ -105,6 +104,7 @@ p, h1 {
     .left {
         align-self: flex-start;
         flex-direction: row;
+        
     }
 
     .card-content {
